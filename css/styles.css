@@ -591,7 +591,8 @@ margin: 0 auto;
     overflow: hidden;
 }
 
-.our-services-cover:is(:hover, :focus) .our-services-cover-text {
+.our-services-link:hover .our-services-cover-text,
+.our-services-link:focus .our-services-cover-text {
     transform: translateY(0%);
 }
 
