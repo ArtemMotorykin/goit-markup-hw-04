@@ -591,11 +591,7 @@ margin: 0 auto;
     overflow: hidden;
 }
 
-.our-services-cover:hover .our-services-cover-text {
-    transform: translateY(0%);
-}
-
-.our-services-cover:focus .our-services-cover-text {
+.our-services-cover:is(:hover, :focus) .our-services-cover-text {
     transform: translateY(0%);
 }
 
